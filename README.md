@@ -1,3 +1,7 @@
+<h2><b>Demonstração</b></h2
+
+https://youtu.be/dpeCr7swfhs
+
 <h2><b>Download</b></h2>
 <ul>
   <li>Para baixar o programa em <code>.exe</code>, <a href="https://github.com/Jefik37/ForgeDeckTester/raw/main/deck_tester.exe">clique aqui</a>.</li>
@@ -35,12 +39,5 @@ obs.: Se o seu script travar logo quando depois de você ter digitado o número 
 <br>
 <i>(Exemplo de usagem.)</i></i><br>
 <img src="https://github.com/Jefik37/ForgeDeckTester/assets/58911866/68e8ec0e-42e6-4245-81a4-5bf1af8c7cb3")>
-
-
-
-
-<h2><b>Guia e Demonstração</b></h2
-
-https://youtu.be/dpeCr7swfhs
 
 
