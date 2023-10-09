@@ -1,4 +1,3 @@
-import pyautogui
 import os
 from datetime import datetime
 import time
@@ -72,13 +71,13 @@ def salvarlog(mensagem):
 
 def main():
     deck_1=input('Digite o nome do primeiro deck: ').strip().replace('.dck','')
-    while deck_1+'.dck' not in os.listdir(caminho+'\\decks\\'):
-        print(f'Deck inexistente! Certifique-se que seu deck esteja salvo como [nome_do_deck].dck em {caminho}\\decks')
+    while deck_1+'.dck' not in os.listdir(caminho+'\\decks\\constructed\\'):
+        print(f'Deck inexistente! Certifique-se que seu deck esteja salvo na lista de Decks Construídos no Editor de Deck do Forge!')
         deck_1=input('Digite o nome do primeiro deck: ').strip().replace('.dck','')
 
     deck_2=input('Digite o nome do segundo deck: ').strip().replace('.dck','')
-    while deck_1+'.dck' not in os.listdir(caminho+'\\decks\\'):
-        print(f'Deck inexistente! Certifique-se que seu deck esteja salvo como [nome_do_deck].dck em {caminho}\\decks')
+    while deck_1+'.dck' not in os.listdir(caminho+'\\decks\\constructed\\'):
+        print(f'Deck inexistente! Certifique-se que seu deck esteja salvo na lista de Decks Construídos no Editor de Deck do Forge!')
         deck_2=input('Digite o nome do segundo deck: ').strip().replace('.dck','')
 
     num_games=int(input('Digite a quantidade de partidas: '))
