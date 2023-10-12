@@ -76,7 +76,7 @@ def main():
         deck_1=input('Digite o nome do primeiro deck: ').strip().replace('.dck','')
 
     deck_2=input('Digite o nome do segundo deck: ').strip().replace('.dck','')
-    while deck_1+'.dck' not in os.listdir(caminho+'\\decks\\constructed\\'):
+    while deck_2+'.dck' not in os.listdir(caminho+'\\decks\\constructed\\'):
         print(f'Deck inexistente! Certifique-se que seu deck esteja salvo na lista de Decks Construídos no Editor de Deck do Forge!')
         deck_2=input('Digite o nome do segundo deck: ').strip().replace('.dck','')
 
